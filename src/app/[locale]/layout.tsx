@@ -10,26 +10,38 @@ import { AllLocales } from '@/utils/AppConfig';
 export const metadata: Metadata = {
   icons: [
     {
+      rel: 'icon',
+      type: 'image/svg+xml',
+      url: '/logo.svg',
+      sizes: 'any',
+    },
+    {
       rel: 'apple-touch-icon',
       url: '/apple-touch-icon.png',
     },
+    // {
+    //   rel: 'icon',
+    //   type: 'image/png',
+    //   sizes: '32x32',
+    //   url: '/favicon-32x32.png',
+    // },
+    // {
+    //   rel: 'icon',
+    //   type: 'image/png',
+    //   sizes: '16x16',
+    //   url: '/favicon-16x16.png',
+    // },
+    // {
+    //   rel: 'icon',
+    //   url: '/favicon.ico',
+    // },
     {
-      rel: 'icon',
-      type: 'image/png',
-      sizes: '32x32',
-      url: '/favicon-32x32.png',
-    },
-    {
-      rel: 'icon',
-      type: 'image/png',
-      sizes: '16x16',
-      url: '/favicon-16x16.png',
-    },
-    {
-      rel: 'icon',
-      url: '/favicon.ico',
+      rel: 'mask-icon',
+      url: '/safari-pinned-tab.svg',
+      color: '#00b0a5', // logo 的主色调
     },
   ],
+  manifest: '/manifest.json',
 };
 
 export default function RootLayout(props: {
