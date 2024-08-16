@@ -13,7 +13,7 @@ import {
   DropdownMenuItem,
   DropdownMenuTrigger,
 } from '@/components/ui/dropdown-menu';
-import { Logo } from '@/templates/Logo';
+import { Logo } from '@/components/ui/Logo';
 import { getI18nPath } from '@/utils/Helpers';
 
 const DashboardHeader = (props: {

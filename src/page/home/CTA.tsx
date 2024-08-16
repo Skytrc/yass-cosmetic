@@ -1,4 +1,4 @@
-import { GitHubLogoIcon } from '@radix-ui/react-icons';
+import { PhoneIcon } from 'lucide-react';
 import { useTranslations } from 'next-intl';
 
 import { buttonVariants } from '@/components/ui/button';
@@ -13,12 +13,13 @@ const CTA = () => {
       <CTABanner
         title={t('title')}
         description={t('description')}
+        highlights={t('highlights')}
         buttons={
           <a
-            className={buttonVariants({ variant: 'outline', size: 'lg' })}
-            href="https://github.com/ixartz/SaaS-Boilerplate"
+            className={buttonVariants({ variant: 'secondary', size: 'lg' })}
+            href="/contact"
           >
-            <GitHubLogoIcon className="mr-2 size-5" />
+            <PhoneIcon className="mr-2 size-5" />
             {t('button_text')}
           </a>
         }

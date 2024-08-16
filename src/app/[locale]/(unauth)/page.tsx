@@ -1,12 +1,13 @@
 import { getTranslations } from 'next-intl/server';
 
-import { CTA } from '@/templates/CTA';
-import { FAQ } from '@/templates/FAQ';
-import { Features } from '@/templates/Features';
-import { Footer } from '@/templates/Footer';
-import { Hero } from '@/templates/Hero';
-import { Pricing } from '@/templates/Pricing';
-import { Sponsors } from '@/templates/Sponsors';
+import { YouTubeVideo } from '@/components/ui/Video';
+import { Certification } from '@/page/home/Certification';
+import { CTA } from '@/page/home/CTA';
+import { FactoryIntroduction } from '@/page/home/FactoryIntroduction';
+import { Hero } from '@/page/home/Hero';
+import { ODMProcessComponent } from '@/page/home/ODMProcessComponent';
+import { ProductShowcase } from '@/page/home/ProductShowcase';
+import { Range } from '@/page/home/Range';
 
 export async function generateMetadata(props: { params: { locale: string } }) {
   const t = await getTranslations({
@@ -23,14 +24,16 @@ export async function generateMetadata(props: { params: { locale: string } }) {
 export default function IndexPage() {
   return (
     <>
-      {/* <Navbar /> */}
       <Hero />
-      <Sponsors />
-      <Features />
-      <Pricing />
-      <FAQ />
+      <Certification />
+      <Range />
+      <FactoryIntroduction />
+      <YouTubeVideo videoId="u2kTL_3Fj8Y" titleKey="factoryVideoTitle" />
+      <ProductShowcase />
+      <ODMProcessComponent />
+      {/* <Pricing />
+      <FAQ /> */}
       <CTA />
-      <Footer />
     </>
   );
 }

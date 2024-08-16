@@ -1,16 +1,16 @@
-import { badgeVariants } from '@/components/ui/badge';
+// import { badgeVariants } from '@/components/ui/badge';
 
 const CenteredHero = (props: {
-  banner: {
-    href: string;
-    text: React.ReactNode;
-  };
+  // banner: {
+  //   href: string;
+  //   text: React.ReactNode;
+  // };
   title: React.ReactNode;
   description: string;
   buttons: React.ReactNode;
 }) => (
   <>
-    <div className="text-center">
+    {/* <div className="text-center">
       <a
         className={badgeVariants()}
         href={props.banner.href}
@@ -19,7 +19,7 @@ const CenteredHero = (props: {
       >
         {props.banner.text}
       </a>
-    </div>
+    </div> */}
 
     <div className="mt-3 text-center text-5xl font-bold tracking-tight">
       {props.title}

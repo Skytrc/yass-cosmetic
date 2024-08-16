@@ -7,7 +7,7 @@ import LocaleSwitcher from '@/components/LocaleSwitcher';
 import { CenteredMenu } from '@/features/landing/CenteredMenu';
 import { Section } from '@/features/landing/Section';
 
-import { Logo } from './Logo';
+import { Logo } from '../ui/Logo';
 
 const Navbar = () => {
   const t = useTranslations('Navbar');

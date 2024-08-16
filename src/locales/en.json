@@ -1,7 +1,7 @@
 {
   "Index": {
-    "meta_title": "YASS Cosmetic - Better Science For Antiperspirant.",
-    "meta_description": "Better science for antiperspirant. Antiperspirant solutions for all over the body. OEM/ODM"
+    "meta_title": "Antiperspirant Deodorant Skincare Manufacturer OEM ODM",
+    "meta_description": "Better science for antiperspirant. Antiperspirant solutions for all over the body OEM ODM"
   },
   "Navbar": {
     "sign_in": "Sign In",
@@ -17,25 +17,89 @@
   },
   "Hero": {
     "follow_twitter": "Follow @Ixartz on Twitter",
-    "title": "The perfect <important>SaaS template</important> to build and scale your business with ease.",
-    "description": "A free and open-source landing page template for your SaaS business, built with React, TypeScript, Shadcn UI, and Tailwind CSS.",
-    "primary_button": "Get Started",
-    "secondary_button": "Star on GitHub"
+    "title": "<important>YASS</important> - Better science for antiperspirant.",
+    "description": "Antiperspirant solutions for all over the body OEM/ODM.",
+    "primary_button": "Contact us",
+    "secondary_button": "Products"
   },
-  "Sponsors": {
-    "title": "Sponsored by"
+  "ProductsRange": {
+    "section_subtitle": "Products Range",
+    "section_title": "Your Complete Beauty Arsenal: From Protection to Pampering",
+    "section_description": "Discover our extensive range of beauty and personal care products, meticulously crafted to cater to all your needs from head to toe. Our six product categories ensure you have everything for a comprehensive beauty routine:",
+    "Deodorant & Antiperspirant": "Deodorant & Antiperspirant",
+    "Skin Care": "Skin Care",
+    "Functional Cosmetic": "Functional Cosmetic",
+    "Sun Care": "Sun Care",
+    "Body Care": "Body Care",
+    "Mask": "Mask",
+    "Deodorant & Antiperspirant_description": "Antiperspirant Deodorant Spray, Roll-On Antiperspirant Deodorant, Deodorant Cream Tube",
+    "Skin Care_description": "Toner, Emulsion, Cream, Essence, Ampoule, Eye Cream, Mask, Pack, Cleansing",
+    "Functional Cosmetic_description": "Anti-wrinkle, Whitening, Sun Protection, Multi-Functional",
+    "Sun Care_description": "Sun Cream, Sun Lotion, Sun Gel, Sun Spray, UV-IR Sun Screen, Sun Cushion Pact",
+    "Body Care_description": "Body Cleanser, Bubble Bath, Body Lotion, Body Spray, Body Oil",
+    "Mask_description": "Sheet Mask, Water Gel Mask, Cream Mask"
   },
-  "Features": {
-    "section_subtitle": "Features",
-    "section_title": "Unlock the Full Potential of the SaaS Template",
-    "section_description": "A free and open-source landing page template for your SaaS business, built with React, TypeScript, Shadcn UI, and Tailwind CSS.",
-    "feature1_title": "Node.js",
-    "feature2_title": "React",
-    "feature3_title": "Tailwind CSS",
-    "feature4_title": "TypeScript",
-    "feature5_title": "Shadcn UI",
-    "feature6_title": "ESLint",
-    "feature_description": "A free and open-source landing page template for your SaaS business, built with React, TypeScript, Shadcn UI, and Tailwind CSS."
+  "FactoryIntroduction": {
+    "title": "Our State-of-the-Art Facility",
+    "squareMetersNumber": "25,000",
+    "squareMeters": "Square Meters",
+    "gmpClassNumber": "100,000",
+    "gmpClass": "GMP Cleanroom Class",
+    "waterFiltrationNumber": "Advanced",
+    "waterFiltration": "Water Filtration System",
+    "modernTechnology": "Modern technology meets sustainability:",
+    "paragraph1": "Yass Factory in Guangzhou City combines modern technology with environmental sustainability. Our facility features a pharmaceutical-grade water filtration system, ensuring the highest quality standards in our production processes.",
+    "ourCommitment": "Our commitment:",
+    "paragraph2": "We are committed to using natural organic ingredients and recyclable packaging materials, upholding our dedication to both product excellence and environmental responsibility.",
+    "naturalIngredients": "Natural organic ingredients",
+    "recyclablePackaging": "Recyclable packaging materials"
+  },
+  "YouTubeVideo": {
+    "factoryVideoTitle": "Tour Our Personal Care Factory",
+    "videoAccessibilityNotice": "If you're unable to view the video, you can",
+    "watchOnYouTube": "watch it on YouTube"
+  },
+  "ProductShowcase": {
+    "title": "Our Featured Products",
+    "products": {
+      "deodorant-stick": {
+        "name": "YASS Antiperspirant deodorant",
+        "description": "This antiperspirant gel is engineered to combat odor effectively and offers up to 48 hours of advanced sweat protection. It provides a discreet and enduring defense against perspiration. "
+      },
+      "gel": {
+        "name": "YASS Antiperspirant clear gel",
+        "description": "Experience the ultimate in freshness and confidence with our Gentle Antiperspirant and Deodorant for men. Our Fresh Clear Gel fights odor instantly and offers 48-hour sweat and odor protection. The unique clear gel formula goes on smoothly, dries quickly, and delivers a burst of all-day freshness."
+      },
+      "lotion-gold": {
+        "name": "YASS Shimmer body cream",
+        "description": "Experience the ultimate in freshness and confidence with our Gentle Antiperspirant and Deodorant for men. Our Fresh Clear Gel fights odor instantly and offers 48-hour sweat and odor protection. The unique clear gel formula goes on smoothly, dries quickly, and delivers a burst of all-day freshness."
+      },
+      "lotion-silver": {
+        "name": "YASS Shimmer body cream",
+        "description": "Experience the ultimate in freshness and confidence with our Gentle Antiperspirant and Deodorant for men. Our Fresh Clear Gel fights odor instantly and offers 48-hour sweat and odor protection. The unique clear gel formula goes on smoothly, dries quickly, and delivers a burst of all-day freshness."
+      },
+      "spray": {
+        "name": "YASS Suncare lotion",
+        "description": "Protecting skin from harmful UVA and UVB rays while moisturising and delicately scenting skin, the Original SPF 50 Sunscreen Face Stick seamlessly glides onto skin without leaving a greasy residue."
+      },
+      "suncare-stick": {
+        "name": "YASS Airy sun stick",
+        "description": "Protecting skin from harmful UVA and UVB rays while moisturising and delicately scenting skin, the Original SPF 50 Sunscreen Face Stick seamlessly glides onto skin without leaving a greasy residue."
+      }
+    }
+  },
+  "ODMProcess": {
+    "title": "ODM PROCESS",
+    "formulaSuggestion": "Formula Suggestion",
+    "design": "Design",
+    "packageDevelopment": "Package Development",
+    "productManufacturing": "Product Manufacturing",
+    "step1": "Customer Request & Proposal",
+    "step2": "Business Consultation",
+    "step3": "Sign Contract & Receive P/O",
+    "step4": "New Product Development & Sample Confirmation",
+    "step5": "Production",
+    "step6": "Dispatch & Shipment"
   },
   "Pricing": {
     "section_subtitle": "Features",
@@ -64,19 +128,24 @@
     "answer": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam aliquam enim dui, id consequat turpis ullamcorper ac. Mauris id quam dolor. Nullam eu egestas turpis. Proin risus elit, sollicitudin in mi a, accumsan euismod turpis. In euismod mi sed diam tristique hendrerit."
   },
   "CTA": {
-    "title": "You are ready?",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    "button_text": "Star on GitHub"
+    "title": "Need Professional Manufacturing Services?",
+    "description": "We're here to support your production needs",
+    "highlights": "Quick Quotes • Expert Team • Quality Service",
+    "button_text": "Contact Us Now"
   },
   "Footer": {
     "product": "Product",
-    "docs": "Docs",
+    "service": "Service",
+    "contact":"Contract",
     "blog": "Blog",
     "community": "Community",
     "company": "Company",
     "terms_of_service": "Terms Of Service",
     "privacy_policy": "Privacy Policy",
-    "designed_by": "Designed by <author></author>"
+    "designed_by": "Designed by {designer}",
+    "factory_description": "Yass Factory is a cutting-edge personal care product manufacturer, with exceptional expertise in advanced antiperspirant solutions. Specializing in high-quality skincare and body care products, we are particularly renowned for our innovative and effective deodorant formulations. Our state-of-the-art 25,000 square meter facility in Guangzhou combines advanced technology and stringent quality control to deliver premium products that meet the highest industry standards, especially in the antiperspirant category.",
+    "factory_address": "2nd Floor Building B, No.2, Bangsheng lst Road, Xinya Street Huadu District, Guangzhou City, Guangdong Province, P.R.China"
+    
   },
   "ProtectFallback": {
     "not_enough_permission": "You do not have the permissions to perform this action"

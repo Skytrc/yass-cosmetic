@@ -1,4 +1,4 @@
-import { GitHubLogoIcon, TwitterLogoIcon } from '@radix-ui/react-icons';
+// import { GitHubLogoIcon, TwitterLogoIcon } from '@radix-ui/react-icons';
 import { useTranslations } from 'next-intl';
 
 import { buttonVariants } from '@/components/ui/button';
@@ -11,36 +11,31 @@ const Hero = () => {
   return (
     <Section className="py-36">
       <CenteredHero
-        banner={{
-          href: 'https://twitter.com/ixartz',
-          text: (
-            <>
-              <TwitterLogoIcon className="mr-1 size-5" /> {t('follow_twitter')}
-            </>
-          ),
-        }}
+        // banner={{
+        //   href: 'https://twitter.com/ixartz',
+        //   text: (
+        //     <>
+        //       <TwitterLogoIcon className="mr-1 size-5" /> {t('follow_twitter')}
+        //     </>
+        //   ),
+        // }}
         title={t.rich('title', {
           important: (chunks) => (
-            <span className="bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 bg-clip-text text-transparent">
-              {chunks}
-            </span>
+            <span className="text-[#00B0A5]">{chunks}</span>
           ),
         })}
         description={t('description')}
         buttons={
           <>
-            <a
-              className={buttonVariants({ size: 'lg' })}
-              href="https://github.com/ixartz/SaaS-Boilerplate"
-            >
+            <a className={buttonVariants({ size: 'lg' })} href="/contract-us">
               {t('primary_button')}
             </a>
 
             <a
               className={buttonVariants({ variant: 'outline', size: 'lg' })}
-              href="https://github.com/ixartz/SaaS-Boilerplate"
+              href="/products"
             >
-              <GitHubLogoIcon className="mr-2 size-5" />
+              {/* <GitHubLogoIcon className="mr-2 size-5" /> */}
               {t('secondary_button')}
             </a>
           </>

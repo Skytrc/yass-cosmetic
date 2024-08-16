@@ -1,7 +1,8 @@
 // app/[locale]/(unauth)/layout.tsx
 import React from 'react';
 
-import { Navbar } from '@/templates/Navbar';
+import { Footer } from '@/components/layout/Footer';
+import { Navbar } from '@/components/layout/Navbar';
 
 export default function UnauthLayout({
   children,
@@ -12,6 +13,7 @@ export default function UnauthLayout({
     <>
       <Navbar />
       <main className="pt-24">{children}</main>
+      <Footer />
     </>
   );
 }
